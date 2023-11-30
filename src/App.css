@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Vina+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Permanent Marker", cursive;
+  font-family: "Vina Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #972239;
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app-container {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: max-content;
+  padding: 1em;
+  background-color: #dbf26e;
+  background-image: linear-gradient(
+    319deg,
+    #dbf26e 0%,
+    #61fa74 37%,
+    #1cfdd6 100%
+  );
+  border-radius: 2em;
+}
+
+.dogImage {
+  width: 400px;
+  height: auto;
+  margin-top: 1.5em;
+  border-radius: 2em;
+}
+
+header {
+  color: white;
+  position: static;
+  top: 0;
+  width: 100vw;
+  background-color: cornflowerblue;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+}
